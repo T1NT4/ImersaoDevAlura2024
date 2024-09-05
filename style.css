@@ -117,8 +117,10 @@ section button:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
 }
 .item-resultado figure{
-    height: 200px;
+    min-height: 200px;
+    max-height: 200px;
     min-width: 135px;
+    max-width: 135px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,9 +133,16 @@ section button:hover {
         box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.781); /* Adiciona uma sombra mais intensa */
     }
 }
-.item-resultado figure a, .item-resultado figure a img{
+.item-resultado figure a{
     height: 100%;
-    min-width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-resultado figure a img{
+    height:200px;
+    flex-grow: 1;
 }
 
 .item-resultado div {
