@@ -23,9 +23,10 @@ function pesquisar(){
 
 
         if(
-            (tituloLow.includes(pesqLow) || 
+            ((tituloLow.includes(pesqLow) || 
             descricaoLow.includes(pesqLow)) &&
-            pesquisaInvalida == false
+            pesquisaInvalida == false) ||
+            pesqLow == "tudinho"
         ){
             resultados += `
                 <div class="item-resultado">
