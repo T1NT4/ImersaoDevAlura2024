@@ -63,13 +63,13 @@ let dados = [
         titulo: "Slay the Spire",
         descricao: "Slay the Spire combina deck-building com elementos de roguelike. Escolha suas cartas sabiamente e monte estratégias para superar inimigos em uma torre cheia de desafios.",
         link: "https://store.steampowered.com/app/646570/Slay_the_Spire/",
-        img: "imgs/Slay_the_Spire_cover.jpg"
+        img: "imgs/Slay_the_spire_cover.jpg"
     },
     {
         titulo: "Enter the Gungeon",
         descricao: "Enter the Gungeon é um roguelike de tiro em que os jogadores exploram uma masmorra gerada proceduralmente e enfrentam uma série de inimigos com armas criativas.",
         link: "https://store.steampowered.com/app/311690/Enter_the_Gungeon/",
-        img: "imgs/Enter_the_Gungeon_cover_art.jpeg"
+        img: "imgs/Enter_The_Gungeon_cover_art.jpeg"
     },
     {
         titulo: "Oxenfree",
