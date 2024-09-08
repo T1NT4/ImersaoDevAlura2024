@@ -44,12 +44,11 @@ function pesquisar(){
                 </div>
             `;
         }
-
-        if(resultados == ""){
-            resultados = `
-                <h2 style="color:#30475E; text-decoration:underline; text-decoration-color:#30475E;">Nenhum resultado foi encontrado</h2>
-            `
-        }
+    }
+    if(resultados == ""){
+        resultados = `
+            <h2 style="color:#30475E; text-decoration:underline; text-decoration-color:#30475E;">Nenhum resultado foi encontrado</h2>
+        `
     }
     sect.innerHTML = resultados;
 }
