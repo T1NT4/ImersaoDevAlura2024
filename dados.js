@@ -45,7 +45,7 @@ let dados = [
         titulo: "Stardew Valley",
         descricao: "Stardew Valley é um jogo de simulação agrícola em que você pode cultivar, pescar, minerar e construir relacionamentos com os habitantes de uma pequena cidade.",
         link: "https://store.steampowered.com/app/413150/Stardew_Valley/",
-        img: "imgs/Stardew_Valley_cover_art.jpg"
+        img: "imgs/Stardew_valley_cover_art.jpg"
     },
     {
         titulo: "Cuphead",
@@ -57,7 +57,7 @@ let dados = [
         titulo: "Dead Cells",
         descricao: "Dead Cells é um roguelike de ação com elementos de metroidvania. Explore um mundo procedural, enfrente inimigos desafiadores e desbloqueie novas habilidades para avançar.",
         link: "https://store.steampowered.com/app/588650/Dead_Cells/",
-        img: "imgs/Dead_Cells_cover_art.jpg"
+        img: "imgs/Dead_cells_cover_art.jpg"
     },
     {
         titulo: "Slay the Spire",
