@@ -54,7 +54,7 @@ h1 {
     font-size: 2.5rem; /* Tamanho da fonte */
     color: #222831; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
-    letter-spacing: 0.4rem; /* Espaçamento entre letras */
+    letter-spacing: 0.2rem; /* Espaçamento entre letras */
 }
 
 /* Estiliza as seções da página */
@@ -194,7 +194,7 @@ footer {
 @media (max-width: 768px) {
     h1 {
         font-size: 2rem; /* Tamanho da fonte em telas menores */
-        letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
+        letter-spacing: 0.1rem; /* Espaçamento entre letras em telas menores */
     }
 
     section input {
@@ -217,7 +217,7 @@ footer {
 
     h1 {
         font-size: 1.8rem; /* Tamanho da fonte em telas pequenas */
-        letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
+        letter-spacing: 0.05rem; /* Espaçamento entre letras em telas pequenas */
     }
 
     section input {
