@@ -161,14 +161,28 @@ section button:hover {
 }
 
 /* Estiliza os links dentro dos itens de resultado */
-.item-resultado div a {
+.item-resultado div a:not(h2 a), button {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
-    color: #30475E; /* Cor do texto dos links */
+    background-color: #30475E;
+    padding: 7px;
+    border-radius: 100px;
+    color: #FFFFFF; /* Cor do texto dos links */
+    width: fit-content;
+    margin-top: 6px;
+    box-shadow: 0 6px 0 #192531;
+    transform: translateY(-6px);
 }
-
+h2 a{
+    color: #30475E;
+}
 /* Estiliza os links quando são passados o mouse sobre */
-.item-resultado div a:hover {
-    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+.item-resultado div a:hover, .item-resultado div a:focus, button:focus, button:hover {
+    box-shadow: 0 3px 0 #192531 !important;
+    transform: translateY(-3px);
+}
+.item-resultado div a:active, button:active, button.activated{
+    box-shadow: none !important;
+    transform: translateY(0);
 }
 
 /* Estiliza a descrição meta dentro dos itens de resultado */
