@@ -148,6 +148,17 @@ let dados = [
         descricao: "The Witness é um jogo de quebra-cabeça em primeira pessoa ambientado em uma ilha misteriosa. Resolva quebra-cabeças complexos e desvende os segredos deste belo mundo aberto.",
         link: "https://store.steampowered.com/app/210970/The_Witness/",
         img: "imgs/The_Witness_cover.jpg"
-    }
-    
+    },
+    {
+        titulo: "Terraria",
+        descricao: "Terraria é um jogo de aventura e sobrevivência em 2D onde os jogadores podem explorar, construir e combater em um mundo gerado proceduralmente. Descubra recursos, enfrente inimigos perigosos e crie seu próprio caminho neste vasto sandbox.",
+        link: "https://store.steampowered.com/app/105600/Terraria/",
+        img: "imgs/Terraria_cover_art.jpg"
+    },
+    {
+        titulo: "Pizza Tower",
+        descricao: "Pizza Tower é um jogo de plataforma 2D frenético com estilo visual inspirado em desenhos animados dos anos 90. Controle Peppino, um pizzaiolo determinado, enquanto corre, salta e destrói seus inimigos em uma jornada para salvar sua pizzaria de um desastre iminente.",
+        link: "https://store.steampowered.com/app/2231450/Pizza_Tower/",
+        img: "imgs/Pizza_Tower_cover_art.jpg"
+    }    
 ];
